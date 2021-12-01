@@ -15,18 +15,18 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
     <!-- Call Font Awesome for page fonts and icons-->
     <script src="https://kit.fontawesome.com/45da6e9d86.js" crossorigin="anonymous"></script>
     <!-- End Bootstrap -->
     <link href="css/styles.css" rel="stylesheet" type="text/css"/>
-
 </head>
-<!-- Start Page Main Body -->
+<!-- Start Page Main-->
 <main role="main">
     <section class="jumbotron text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">Video Games</h1>
-            <p class="lead text-muted">Lets see some games!</p>
+            <h1 class="jumbotron-heading">IoT Controller</h1>
+            <p class="lead text-muted">This application is able to control an IoT Device</p>
         </div>
     </section>
     <!-- Begin Navigation bar -->
@@ -73,7 +73,30 @@
         </div> <!-- column -->
     </div><!-- row -->
     <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header"><a href="https://agent.electricimp.com/qedHQyqluXyB?pin=5">Switch Red Switch</a></div>
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card">
+                <div class="card-header"><a href="https://agent.electricimp.com/qedHQyqluXyB?pin=7">Switch Green Switch</a></div>
+            </div>
+            <div class="card-footer">
+            </div>
+        </div>
+    </div>
+    <h4 class='temp-status text-center'>Temperature: <span></span>&deg;C</h4>
+    <h4 class='humid-status text-center'>Humidity: <span></span> per cent</h4>
+    <h4 class='locale-status text-center'>Location: <span></span></h4>
+    <script>
 
+    </script>
     </div>
 </main>
 <!-- End Page Main Body -->
